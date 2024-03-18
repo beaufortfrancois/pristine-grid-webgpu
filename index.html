@@ -224,7 +224,7 @@
           this.pane.on('change', updateUniforms);
           this.pane.addButton({
             title: 'ViewSource',
-          }).on('click', () => { window.location = 'https://github.com/toji/pristine-grid-webgpu' });
+          }).on('click', () => { window.open('https://github.com/toji/pristine-grid-webgpu'); });
         }
 
         onFrame(device, context, timestamp) {
